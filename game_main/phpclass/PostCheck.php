@@ -18,7 +18,7 @@ class PostCheck extends Base
     {
         $this->methodname = __FUNCTION__;
         $ret = $this->post_ary[$key];
-        if (preg_match("/^[a-zA-Z0-9_あ-ん]+$/", $ret) == false) {
+        if (preg_match("/^[a-zA-Z0-9_あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん]+$/", $ret) == false) {
             $ret = '';
         }
         return $ret;
