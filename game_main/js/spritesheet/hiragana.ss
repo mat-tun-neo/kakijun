@@ -251,7 +251,7 @@ const COMPLETE_MESSAGE = {
 
 // 難易度
 const TARGET_WORD = document.getElementById("TARGET_WORD").innerText;
-console.log("TARGET_WORD", TARGET_WORD);
+//console.log("TARGET_WORD", TARGET_WORD);
 
 // title定義
 const TITLE = { x: 505, y:561, char_size: 300, label_offset_x: 10, label_offset_y: 260 };
@@ -260,4 +260,4 @@ const TITLE_LABEL2 = "";
 
 // 難易度ごとのアニメーションパターン
 const ANIMATION_PATTERN = [...TARGET_WORD];
-console.log("ANIMATION_PATTERN", ANIMATION_PATTERN);
+//console.log("ANIMATION_PATTERN", ANIMATION_PATTERN);
